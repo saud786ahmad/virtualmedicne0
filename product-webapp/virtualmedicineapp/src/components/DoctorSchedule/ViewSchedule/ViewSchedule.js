@@ -5,7 +5,7 @@ import "./ViewSchedule.css";
 import CreateSchedule from "../CreateSchedule/CreateSchedule";
 import Swal from "sweetalert2";
 
-const host = "http://35.166.59.18:8083";
+const host = "https://virtualmedicine.stackroute.io";
 
 export default function ViewSchedule() {
   const doctorEmail = JSON.parse(localStorage.getItem("doctorEmail"));

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const host = 'http://35.166.59.18:8083'
+const host = 'https://virtualmedicine.stackroute.io'
 
 function UserProfile() {
   let [userInfo, setUserInfo] = useState({});

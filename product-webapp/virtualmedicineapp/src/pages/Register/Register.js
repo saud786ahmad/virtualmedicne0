@@ -4,13 +4,13 @@ import registerImg from '../../assets/register.jpg'
 import axios from 'axios';
 import { useNavigate,Link } from "react-router-dom";
 
-const host = 'http://35.166.59.18:8083';
+const host = 'https://virtualmedicine.stackroute.io';
 
 function Register() {
     const [formData, setformData] = useState({role:'patient',email:'',password:'',passwordConfirm:''});
     const [error,setError]=useState({email:'',password:'',passwordConfirm:''})
     let navigate = useNavigate();
-    let apiBaseUrl='http://35.166.59.18:8083';
+    let apiBaseUrl='https://virtualmedicine.stackroute.io';
 
     const formHandler=(e)=>{
         formData[e.target.name]=e.target.value
