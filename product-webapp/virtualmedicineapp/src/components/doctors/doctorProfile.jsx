@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Swal from "sweetalert2";
 
-let host = "https://virtualmedicine.stackroute.io";
+let host = "http://35.166.59.18";
 
 function DoctorProfile() {
   const doctorEmail = JSON.parse(localStorage.getItem("doctorEmail"));

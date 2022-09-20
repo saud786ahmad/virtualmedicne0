@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import ScrollToBottom from "react-scroll-to-bottom";
 
-const host = 'https://virtualmedicine.stackroute.io'
+const host = 'http://35.166.59.18'
 
 export default function Chat({socket, username, chatRoom, videoId, room}) {
 
