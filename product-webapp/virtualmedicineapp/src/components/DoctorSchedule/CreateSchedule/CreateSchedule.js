@@ -4,7 +4,7 @@ import "../../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./CreateSchedule.css";
 import Swal from "sweetalert2";
 
-const host = "http://18.142.183.132:8080";
+const host = "http://18.191.151.223:8080";
 
 export default function CreateSchedule({ isModalOpen }) {
   const month =

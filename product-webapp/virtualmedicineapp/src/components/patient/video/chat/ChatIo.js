@@ -4,7 +4,7 @@ import Chat from './Chat';
 import './Chat.css'
 
 const socket = io.connect('http://localhost:3030')
-const host = 'http://18.142.183.132:8080';
+const host = 'http://18.191.151.223:8080';
 
 export default function ChatIo(props) {
   const [chatRoom, setChatRoom] = useState([]);
