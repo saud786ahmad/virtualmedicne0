@@ -4,13 +4,13 @@ import registerImg from '../../assets/register.jpg'
 import axios from 'axios';
 import { useNavigate,Link } from "react-router-dom";
 
-const host = 'http://35.166.59.18:8080';
+const host = 'http://18.142.183.132:8080';
 
 function Register() {
     const [formData, setformData] = useState({role:'patient',email:'',password:'',passwordConfirm:''});
     const [error,setError]=useState({email:'',password:'',passwordConfirm:''})
     let navigate = useNavigate();
-    let apiBaseUrl='http://35.166.59.18:8080';
+    let apiBaseUrl='http://18.142.183.132:8080';
 
     const formHandler=(e)=>{
         formData[e.target.name]=e.target.value

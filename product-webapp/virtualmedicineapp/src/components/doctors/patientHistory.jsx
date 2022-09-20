@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import DoctorSideNavBar from "../common/DoctorSideNavBar";
 
-const host = "http://35.166.59.18:8080";
+const host = "http://18.142.183.132:8080";
 function PatientHistory() {
   let [doctorsAppointment, setDoctorsAppointment] = useState([]);
   let id = 1;

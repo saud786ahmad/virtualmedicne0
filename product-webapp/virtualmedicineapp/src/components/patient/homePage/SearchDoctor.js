@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { Button, Form } from 'react-bootstrap'
 import './SearchDoctor.css'
 
-const host = 'http://35.166.59.18:8080';
+const host = 'http://18.142.183.132:8080';
 
 export default function SearchDoctor(props) {
 
@@ -60,7 +60,7 @@ export default function SearchDoctor(props) {
       //     for(let i =0; i<byLocation.length;i++){
       //       selectedLocation = byLocation[i].nextElementSibling.innerText.toLowerCase();
       //       if(i === 0 ){
-      //         updateUrl = `http://35.166.59.18:8080/api/v1/user/doctor/${selectedLocation}`
+      //         updateUrl = `http://18.142.183.132:8080/api/v1/user/doctor/${selectedLocation}`
       //       }
       //       updateUrl += `&city=${selectedLocation}`;
       //     }
