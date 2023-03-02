@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import { Card, Figure} from 'react-bootstrap'
 import './DisplayDoctor.css'
 
-const host = 'http://18.191.151.223:8080';
+const host = 'http://3.238.37.252:8080';
 
 export default function DisplayDoctor(props) {
   
